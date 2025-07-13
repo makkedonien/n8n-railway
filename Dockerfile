@@ -1,5 +1,5 @@
 FROM node:18-alpine
-ARG N8N_VERSION=1.56.1
+ARG N8N_VERSION=1.101.2
 
 # Install system packages including ffmpeg
 RUN apk add --update graphicsmagick tzdata ffmpeg curl
